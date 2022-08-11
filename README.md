@@ -1,5 +1,17 @@
 # Creating a simple portfolio website using markdown
 
+## Why should you do it this way? 
+
+-   Once you're set up - its *really* easy to make changes
+
+-   You don't have to mess with formatting - it just looks nice
+
+-   But you *can* mess around with formatting and themes if you would like
+
+-   Its FREE and you get a cool github URL aka immediate street cred
+
+-   Setup is pretty simply - and it's a good time to learn a new tool anyway
+
 ## Resources
 
 The example website from this guide is here: <https://rbcavanaugh.github.io>
@@ -205,3 +217,21 @@ Go to the repository settings and select "Pages" in the menu on the left side of
 If not, make sure that the "branch" is set to "master" and that the option next to this says "/docs".
 
 Wait a few minutes and refresh the page again. Click on the link to go see your new website!.
+
+## Troubleshooting
+
+Hey now that you have a github account, you can raise issues! If you're stuck, go to my template page (<https://github.com/rbcavanaugh/rbcavanaugh.github.io>), select issues, create a new issue, and let me know where you're stuck. Include error messages, maybe a screen shot or two. I'll help you out.
+
+## Next Steps:
+
+-   Click through the distill website for other features you want to include: <https://rstudio.github.io/distill/>
+
+-   You could change the coloring, the themes, font.
+
+-   Add another page. Maybe you want a page for pictures of your cat.
+
+-   Add a blog. Think livejournal but 25 years later. .
+
+-   GO DO SOME ACTUAL WORK....just kidding.
+
+-   

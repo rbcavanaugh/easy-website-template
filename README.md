@@ -225,7 +225,7 @@ Last, go back to your github repository.
 
 Go to the repository settings and select "Pages" in the menu on the left side of the page. you should see something that says:
 
-"Your site is live at [https://rbcavanaugh.gitgithub.io/](https://rbcavanaugh.github.io/){.uri}"
+"Your site is live at <https://rbcavanaugh.github.io/>"
 
 If not, make sure that the "branch" is set to "master" and that the option next to this says "/docs".
 

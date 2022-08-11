@@ -6,11 +6,11 @@
 
 -   You don't have to mess with formatting - it just looks nice
 
--   But you *can* mess around with formatting and themes if you would like
+-   But you *can* mess around with formatting and themes if you like
 
 -   Its FREE and you get a cool github URL aka immediate street cred
 
--   Setup is pretty simply - and it's a good time to learn a new tool anyway
+-   Setup is pretty simple - and it's a good time to learn a new tool anyway
 
 ## Resources
 

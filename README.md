@@ -1,8 +1,3 @@
----
-title: "Making your own portfolio website using distill"
-output: github_document
----
-
 ## Resources
 
 The example website from this guide is here: https://rbcavanaugh.github.io

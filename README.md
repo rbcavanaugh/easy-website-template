@@ -232,4 +232,4 @@ Hey now that you have a github account, you can raise issues! If you're stuck, g
 
 -   Add a blog. Think livejournal but 25 years later. .
 
--   GO DO SOME ACTUAL WORK....just kidding...or am I?
+-   Go do some actual work :)

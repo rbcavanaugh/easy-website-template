@@ -101,7 +101,13 @@ Open the file called "\_site.yml". This file holds key information about how you
 
 *Important: The .yml file is both case sensitive and sensitive to whitespace. It's a bit annoying, but be careful about how each item is indented, because it does matter and you will get an error if the indent isn't right.*
 
-Changes to make: - Change the name of your website to your username.github.io - Change the title of your website. This goes in the top left of the web page. - change the name of the .pdf file to represent what your pdf CV is called. If you don't have one right now, you can "comment out" these two lines of code by putting a hashtag (also called pound sign) in front of the two CV lines so that they are not included. Like this:
+Changes to make:
+
+\- Change the name of your website to your username.github.io
+
+\- Change the title of your website. This goes in the top left of the web page.
+
+\- change the name of the .pdf file to represent what your pdf CV is called. If you don't have one right now, you can "comment out" these two lines of code by putting a hashtag (also called pound sign) in front of the two CV lines so that they are not included. Like this:
 
     name: "rbcavanaugh.github.io"
     title: "Rob Cavanaugh | PhD Student"

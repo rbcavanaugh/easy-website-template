@@ -1,5 +1,5 @@
 ---
-title: "Rob Cavanaugh - website demo"
+title: "Rob Cavanaugh - website demo"    
 site: distill::distill_website
 image: "images/profile.jpg"
 links:

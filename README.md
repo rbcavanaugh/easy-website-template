@@ -28,7 +28,7 @@ We will use this repository as a template for your own website.
 
 It's set up to be a simple website that will let you include
 
--   a page about yo
+-   a page about you
 
 -   a page about your research
 

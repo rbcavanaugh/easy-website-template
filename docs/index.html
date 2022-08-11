@@ -8,7 +8,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
-    <title>Rob Cavanaugh - website demo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <style type="text/css">body {font-family: 'Roboto Mono', serif;}</style>
+
+    <style>
+      @media screen and (min-width: 768px) {
+        .container {
+          width: 768px;
+        }
+      }
+
+      body {
+        background-color: #f5e9dd;
+      }
+    </style>
+
+    <title>Rob Cavanaugh</title>
 
     
           <!--radix_placeholder_navigation_in_header-->
@@ -637,12 +652,10 @@
           <header class="header header--fixed" role="banner">
           <nav class="distill-site-nav distill-site-header">
           <div class="nav-left">
-          <a href="index.html" class="title">Rob Cavanaugh | PhD Student</a>
+          <a href="index.html" class="title">Website Demo</a>
           </div>
           <div class="nav-right">
           <a href="index.html">Home</a>
-          <a href="research.html">Research</a>
-          <a href="cv-cavanaugh.pdf">CV</a>
           <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
           </div>
           </nav>
@@ -651,89 +664,192 @@
           <!--radix_placeholder_site_before_body-->
           <!--/radix_placeholder_site_before_body-->
     
-    <div class="container min-vh-100">
-      <div class="row min-vh-100 justify-content-center align-items-center">
-        <div class="col-12 text-center">
-          <img src="images/profile.jpg" style="height:10rem" class="rounded-circle">
-          <div class="mt-3">
-            <h1>Rob Cavanaugh - website demo</h1>
-          </div>
-          <div class="row justify-content-center align-items-center">
-            <div class="col-6 mt-3 text-center d-none d-sm-block">
-              <p>I’m a PhD candidate at the <a
-              href="https://www.lrcl.pitt.edu/">University of
-              Pittsburgh</a> and ASHA-certified speech-language
-              pathologist. My research aims to improve the effectiveness
-              and clinical implementation of aphasia rehabilitation
-              services from two perspectives: (1) specifying the active
-              ingredients of aphasia treatments and (2) developing
-              technology-based tools to accelerate the clinical
-              implementation of aphasia research.</p>
-            </div>
-            <div class="col-11 mt-3 text-center d-block d-sm-none">
-              <p>I’m a PhD candidate at the <a
-              href="https://www.lrcl.pitt.edu/">University of
-              Pittsburgh</a> and ASHA-certified speech-language
-              pathologist. My research aims to improve the effectiveness
-              and clinical implementation of aphasia rehabilitation
-              services from two perspectives: (1) specifying the active
-              ingredients of aphasia treatments and (2) developing
-              technology-based tools to accelerate the clinical
-              implementation of aphasia research.</p>
-            </div>
-          </div>
-
-          <hr style="width:60%;"/>
-
-          <div class="row justify-content-center align-items-center">
-            <div class="col-8 text-center d-none d-sm-block">
-              <ul class="list-inline">
-                                <li class="list-inline-item">
-                  <a href=https://scholar.google.com/citations?user=7pMLCJsAAAAJ&amp;hl=en&amp;oi=sra>
-                    <button type="button" class="btn btn-outline-dark mb-2">
-                      Google Scholar
-                    </button>
-                  </a>
-                </li>
-                                <li class="list-inline-item">
-                  <a href=https://twitter.com/rb_cavanaugh>
-                    <button type="button" class="btn btn-outline-dark mb-2">
-                      Twitter
-                    </button>
-                  </a>
-                </li>
-                                <li class="list-inline-item">
-                  <a href=mailto:rob.cavanaugh@pitt.edu>
-                    <button type="button" class="btn btn-outline-dark mb-2">
-                      Email
-                    </button>
-                  </a>
-                </li>
-                              </ul>
-            </div>
-          </div>
-
-          <div class="row justify-content-center align-items-center">
-            <div class="col-8 m-1 text-center d-block d-sm-none">
-              <div class="list-group">
-                                <a href=https://scholar.google.com/citations?user=7pMLCJsAAAAJ&amp;hl=en&amp;oi=sra>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+    <div class="container d-none d-lg-block d-xl-block">
+      <div class="row mt-5">
+        <div class="col-7 mt-5">
+          <h1>Rob Cavanaugh</h1>
+          <hr style="max-width: 200px; margin-left:0;" style="width:60%;"/>
+          <div class="my-3" id="icon-list">
+            <ul class="list-inline">
+                            <li class="list-inline-item">
+                <a href=https://scholar.google.com/citations?user=7pMLCJsAAAAJ&amp;hl=en&amp;oi=sra>
+                  <button type="button" class="btn btn-outline-dark mb-2">
                     Google Scholar
                   </button>
                 </a>
-                                <a href=https://twitter.com/rb_cavanaugh>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
+              </li>
+                            <li class="list-inline-item">
+                <a href=https://twitter.com/rb_cavanaugh>
+                  <button type="button" class="btn btn-outline-dark mb-2">
                     Twitter
                   </button>
                 </a>
-                                <a href=mailto:rob.cavanaugh@pitt.edu>
-                  <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                    Email
+              </li>
+                            <li class="list-inline-item">
+                <a href=cv-cavanaugh.pdf>
+                  <button type="button" class="btn btn-outline-dark mb-2">
+                    CV
                   </button>
                 </a>
-                              </div>
-            </div>
+              </li>
+                          </ul>
           </div>
+        </div>
+
+        <div class="col mr-4 mt-5">
+          <img src="images/profile.jpg" style="height:15rem" class="rounded float-right">
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <style type="text/css">
+
+          body {
+          background-color: white!important;
+          font-family: 'Helvetica';
+          }
+          </style>
+          <div id="bio" class="section level2">
+          <h2>Bio</h2>
+          <p>I’m a PhD candidate at the <a
+          href="https://www.lrcl.pitt.edu/">University of Pittsburgh</a>
+          and ASHA-certified speech-language pathologist. My research
+          aims to improve the effectiveness and clinical implementation
+          of aphasia rehabilitation services from two perspectives: (1)
+          specifying the active ingredients of aphasia treatments and
+          (2) developing technology-based tools to accelerate the
+          clinical implementation of aphasia research.</p>
+          <p>Contact me at rob.cavanaugh [@] pitt.edu</p>
+          </div>
+          <div id="publications" class="section level2">
+          <h2>Publications</h2>
+          <p>Quique, Y. M., <strong>Cavanaugh, R.,</strong> Lescht, E.,
+          &amp; Evans, W. S. (2022). Applying adaptive distributed
+          practice to self-managed computer-based anomia treatment: A
+          single-case experimental design. Journal of Communication
+          Disorders, 99, 106249. <a
+          href="https://doi.org/10.1016/j.jcomdis.2022.106249"
+          class="uri">https://doi.org/10.1016/j.jcomdis.2022.106249</a>.</p>
+          <p><strong>Cavanaugh, R.,</strong> Kravetz C., Jarold L.,
+          Quique Y., Turner R., &amp; Evans, W.S. (2021). Is There a
+          Research–Practice Dosage Gap in Aphasia Rehabilitation?
+          American Journal of Speech-Language Pathology, 30(5),
+          2115–2129. <a
+          href="https://doi.org/10.1044/2021_AJSLP-20-00257"
+          class="uri">https://doi.org/10.1044/2021_AJSLP-20-00257</a>.</p>
+          <p><strong>Example of self-archiving a paper - click on the
+          title</strong></p>
+          <p>Authors, Amazing (2022). <a href="fake-paper.pdf">A very
+          provacative title.</a> Journal of Awesome.]</p>
+          </div>
+          <div id="presentations" class="section level2">
+          <h2>Presentations</h2>
+          <p>Akers, C, Boyle M, Swiderski A, Hula WD, <strong>Cavanaugh
+          R.,</strong> Elman R. (2021) Using complete utterances to
+          measure change in conversational discourse following
+          communication- based group treatment. Abstract for poster
+          presentation, 51st annual Clinical Aphasiology Conference,
+          Online</p>
+          <p><strong>Cavanaugh, R.,</strong> Terhorst, L., Swiderski,
+          A.W., Hula, W.D., Evans, W.S. (2020). A Systematic Appraisal
+          of Individual Effect Sizes in Aphasia Single-Case Designs via
+          Simulation. Abstract for poster presentation, 58th Academy of
+          Aphasia, Philadelpha PA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-block d-lg-none d-xl-none">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="d-flex flex-col">
+          <div class="mx-auto">
+            <div class="p-3 mt-3 text-center">
+              <img src="images/profile.jpg" style="height:15rem" class="rounded">
+            </div>
+            <div class="p-2 text-center">
+              <h1>Rob Cavanaugh</h1>
+            </div>
+            <hr style="width:60%;"/>
+
+            <div class="row justify-content-center align-items-center">
+              <div class="col-8 p-1 text-center">
+                <div class="list-group">
+                                    <a href=https://scholar.google.com/citations?user=7pMLCJsAAAAJ&amp;hl=en&amp;oi=sra>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      Google Scholar
+                    </button>
+                  </a>
+                                    <a href=https://twitter.com/rb_cavanaugh>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      Twitter
+                    </button>
+                  </a>
+                                    <a href=cv-cavanaugh.pdf>
+                    <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
+                      CV
+                    </button>
+                  </a>
+                                  </div>
+              </div>
+            </div>
+            <div class="mt-4 mb-5 mx-2">
+              <style type="text/css">
+
+              body {
+              background-color: white!important;
+              font-family: 'Helvetica';
+              }
+              </style>
+              <div id="bio" class="section level2">
+              <h2>Bio</h2>
+              <p>I’m a PhD candidate at the <a
+              href="https://www.lrcl.pitt.edu/">University of
+              Pittsburgh</a> and ASHA-certified speech-language
+              pathologist. My research aims to improve the effectiveness
+              and clinical implementation of aphasia rehabilitation
+              services from two perspectives: (1) specifying the active
+              ingredients of aphasia treatments and (2) developing
+              technology-based tools to accelerate the clinical
+              implementation of aphasia research.</p>
+              <p>Contact me at rob.cavanaugh [@] pitt.edu</p>
+              </div>
+              <div id="publications" class="section level2">
+              <h2>Publications</h2>
+              <p>Quique, Y. M., <strong>Cavanaugh, R.,</strong> Lescht,
+              E., &amp; Evans, W. S. (2022). Applying adaptive
+              distributed practice to self-managed computer-based anomia
+              treatment: A single-case experimental design. Journal of
+              Communication Disorders, 99, 106249. <a
+              href="https://doi.org/10.1016/j.jcomdis.2022.106249"
+              class="uri">https://doi.org/10.1016/j.jcomdis.2022.106249</a>.</p>
+              <p><strong>Cavanaugh, R.,</strong> Kravetz C., Jarold L.,
+              Quique Y., Turner R., &amp; Evans, W.S. (2021). Is There a
+              Research–Practice Dosage Gap in Aphasia Rehabilitation?
+              American Journal of Speech-Language Pathology, 30(5),
+              2115–2129. <a
+              href="https://doi.org/10.1044/2021_AJSLP-20-00257"
+              class="uri">https://doi.org/10.1044/2021_AJSLP-20-00257</a>.</p>
+              <p><strong>Example of self-archiving a paper - click on
+              the title</strong></p>
+              <p>Authors, Amazing (2022). <a href="fake-paper.pdf">A
+              very provacative title.</a> Journal of Awesome.]</p>
+              </div>
+              <div id="presentations" class="section level2">
+              <h2>Presentations</h2>
+              <p>Akers, C, Boyle M, Swiderski A, Hula WD,
+              <strong>Cavanaugh R.,</strong> Elman R. (2021) Using
+              complete utterances to measure change in conversational
+              discourse following communication- based group treatment.
+              Abstract for poster presentation, 51st annual Clinical
+              Aphasiology Conference, Online</p>
+              <p><strong>Cavanaugh, R.,</strong> Terhorst, L.,
+              Swiderski, A.W., Hula, W.D., Evans, W.S. (2020). A
+              Systematic Appraisal of Individual Effect Sizes in Aphasia
+              Single-Case Designs via Simulation. Abstract for poster
+              presentation, 58th Academy of Aphasia, Philadelpha PA.</p>
+              </div>
+            </div>
         </div>
       </div>
     </div>

@@ -1,0 +1,16 @@
+---
+title: "Rob Cavanaugh"
+site: distill::distill_website
+image: "images/profile.jpg"
+links:
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=7pMLCJsAAAAJ&hl=en&oi=sra
+  - label: Twitter
+    url: https://twitter.com/rb_cavanaugh
+  - label: Email
+    url: mailto:rob.cavanaugh@pitt.edu
+output:
+  postcards::jolla
+---
+
+I\'m a PhD candidate at the [University of Pittsburgh](https://www.lrcl.pitt.edu/) and ASHA-certified speech-language pathologist. My research aims to improve the effectiveness and clinical implementation of aphasia rehabilitation services from two perspectives: (1) specifying the active ingredients of aphasia treatments and (2) developing technology-based tools to accelerate the clinical implementation of aphasia research.

@@ -1,5 +1,5 @@
 ---
-title: "Rob Cavanaugh | PhD Student"    
+title: "Rob Cavanaugh"    
 site: distill::distill_website
 image: "images/profile.jpg"
 links:

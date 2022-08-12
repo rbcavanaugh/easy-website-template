@@ -1,4 +1,4 @@
-## Bio
+## About me
 
 I'm a PhD candidate at the [University of Pittsburgh](https://www.lrcl.pitt.edu/) and ASHA-certified speech-language pathologist. My research aims to improve the effectiveness and clinical implementation of aphasia rehabilitation services from two perspectives: (1) specifying the active ingredients of aphasia treatments and (2) developing technology-based tools to accelerate the clinical implementation of aphasia research. My dissertation research is examing determinants of multilevel discourse outcomes in anomia treatment for Aphasia. 
 
